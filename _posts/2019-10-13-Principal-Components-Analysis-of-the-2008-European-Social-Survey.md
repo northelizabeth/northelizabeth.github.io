@@ -10,7 +10,13 @@ Two groups of correlated variables are found based on the output of PCA. Nine va
 
 ![](/images/pca2.png)
 
-The output of PCA also gives the result of eigenvectors, which can be regarded as weights to calculate PC scores. PC1=0.473399b+0.475382c+0.421763d+0.407364e+0.135135f+0.256875g +0.178642h+0.239684i+0.180187j PC2=-0.300551b -0.368046c -0.098461d-0.067808e+0.179370f+0.361351g +0.362399h+0.534678i+0.424213j As the data is unstandardized data, the eigenvectors can not be used to label two principal components. In other words, structural loadings should be calculated and used to interpret two components. They can be quantified by using the Pearson correlation coefficients (See Table 3). The cutting value is set to 0.5. Hence, it can be found that PC1 is strongly correlated with all variables. It can be labelled with “General political trust”. As for PC2, it has a strong relationship with trstun(g), imbgeco(h), imueclt(i) and imwbcnt(j), which can be labelled with “Immigrant politics” or “Trust in foreign politics” based on the content of variables.
+The output of PCA also gives the result of eigenvectors, which can be regarded as weights to calculate PC scores. 
+| Princinpal Components        |           |
+|:-------------:|:-------------:|
+| PC1     | 0.473399b+0.475382c+0.421763d+0.407364e+0.135135f+0.256875g +0.178642h+0.239684i+0.180187j | 
+| PC2     | -0.300551b -0.368046c -0.098461d-0.067808e+0.179370f+0.361351g +0.362399h+0.534678i+0.424213j  |   
+
+As the data is unstandardized data, the eigenvectors can not be used to label two principal components. In other words, structural loadings should be calculated and used to interpret two components. They can be quantified by using the Pearson correlation coefficients (See Table 3). The cutting value is set to 0.5. Hence, it can be found that PC1 is strongly correlated with all variables. It can be labelled with “General political trust”. As for PC2, it has a strong relationship with trstun(g), imbgeco(h), imueclt(i) and imwbcnt(j), which can be labelled with “Immigrant politics” or “Trust in foreign politics” based on the content of variables.
 
 Figure 3 shows the biplot of PCA based on the mean-corrected data. It can be found that Denmark(DK), Finland(FI) and Norway(NO) which are located in the northern part of Europe trust politics highly. Compared to those countries, Bulgaria(BG) and Poland(PL) have a higher level of trust in foreign politics or immigrant politics. Russia(RU), Greece(GR) and Turkey(TR) have a lower level of all kinds of trust in politics.
 

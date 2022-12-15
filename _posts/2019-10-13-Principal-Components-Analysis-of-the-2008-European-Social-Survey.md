@@ -1,4 +1,8 @@
-
+---
+layout: post
+title: Princinpal Compenents Analysis of the 2008 European Social Survey
+categories: [Statistics, PCA]
+---
 The European Social Survey is an instrument developed to annually assess social, political and moral attitudes across all 27, formerly 28, European nations. For this survey a cross sectional probability sample from 2008 was administered to all people aged 15 or over residing in private households. In the current sample, we are interested in only nine variables, three which assess attitudes toward immigration, and six which assess trust of governmental infrastructure. Because more than one question was asked to assess immigration attitudes and governmental trust, it is likely they will all hang together empirically. Here I will perform an orthogonal principal component analysis to answer the questions: Did the 2008 Eurpean Social Survey indeed measure attitudes toward immigration and trust of governental infrastructure?
 
 ![](/images/pca1.png)
